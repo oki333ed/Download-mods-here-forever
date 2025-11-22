@@ -1,0 +1,51 @@
+{
+	"geode": "4.10.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "cmds.download-mods-here-forever",
+	"name": "Download mods here forever!",
+	"version": "v1.0.0",
+	"developer": "CMDs",
+	"description": "It shows the \"Download mods here!\" message even after opening Geode for the first time",
+	"links": {
+		"source": "https://github.com/oki333ed/Download-mods-here-forever"
+	},
+	"tags": [
+		"offline",
+		"enhancement",
+		"developer"
+	],
+	"settings": {
+		"qol-label": {
+			"type": "title",
+			"name": "Qol"
+		},
+		"enabled": {
+			"type": "bool",
+			"default": true,
+			"name": "Enabled",
+			"description": "Enable the \"Download mods here!\""
+		},
+		"fix": {
+			"type": "bool",
+			"default": false,
+			"name": "Fix",
+			"description": "Fix button position (Very baddddddd)"
+		},
+		"other-label": {
+			"type": "title",
+			"name": "Other"
+		},
+		"id": {
+			"type": "string",
+			"default": "geode.loader",
+			"name": "ID",
+			"one-of": ["geode.loader", "cmds.download-mods-here-forever"],
+			"description": "Sprite \"Download mods here!\" ID"
+		}
+	}
+}
